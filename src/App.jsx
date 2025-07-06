@@ -1,10 +1,12 @@
 import Like from "./Like";
 import './App.css';
 import Header from "./Header";
+import "./index.css";
 
 function App(){
+
   return (
-    <>
+    <div className="App">
       <Header />
       <div className="like">
             < Like title={"The Avengers"} pic={"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B6981BDF339764E6C56626C9DE0820CEF297EAF069F62F244E0F50061219F069/scale?width=440&aspectRatio=1.78&format=webp"} />
@@ -15,9 +17,8 @@ function App(){
   
       </div>
 
-
      
-    </>
+    </div>
   )
 }
 export default App;

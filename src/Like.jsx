@@ -9,7 +9,7 @@ function Like({title , pic}) {
                 <h2 className="title">{title}</h2>
                 <img className="img" src={pic} alt="Thubnail" />
                 <button className="btn" onClick={() =>setlike(!like)
-                } >{like?"❤️":"🤍"}</button>
+                } >{like?"Liked":"Like"}</button>
             </div>
     
         </div>
