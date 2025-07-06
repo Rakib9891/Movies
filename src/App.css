@@ -1,0 +1,7 @@
+.like {
+  display: flex;
+  flex-direction: row;
+  gap: 05px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
